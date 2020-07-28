@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/spa/home",
+		    "style" : {
+				"navigationBarTitleText": "高能合唱团",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/random_reward",
+			"style": {
+				"navigationBarTitleText": "幸运大抽奖"
+			}
+		},
+		{
+		    "path" : "pages/spa/mygroup",
+		    "style" : {
+				"navigationBarTitleText": "合唱团简介",
+				"enablePullDownRefresh": true
+			}
+		}
+		,
+		{
+		    "path" : "pages/spa/signup",
+		    "style" : {
+				"navigationBarTitleText": "合唱团报名",
+				"enablePullDownRefresh": true
+			}
+		}
+		,
+		{
+			"path": "pages/receive_reward",
+			"style": {
+				"navigationBarTitleText": "填写领奖地址"
+			}
+		}
+        ,{
+            "path" : "pages/spa/brief_introduction",
+            "style" : {
+            	"navigationBarTitleText": "合唱团简介"
+            }
+        }
+        ,{
+            "path" : "pages/spa/elderly_group",
+            "style" : {
+            	"navigationBarTitleText": ""
+            }
+        }
+        
+        ,{
+            "path" : "pages/spa/search",
+           "style" : {
+           	"navigationBarTitleText": "合唱团搜索"
+           }
+        }
+        ,{
+            "path" : "pages/spa/external_link",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color": "#373434",
+		"selectedColor": "#FA5658",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+		  "pagePath": "pages/spa/home",
+		  "iconPath": "static/spa/home.png",
+		  "selectedIconPath": "static/spa/home_select.png",
+		  "text": "首页"
+		}, {
+		  "pagePath": "pages/spa/signup",
+		  "iconPath": "static/spa/signup.png",
+		  "selectedIconPath": "static/spa/signup_select.png",
+		  "text": "报名参赛"
+		}, {
+		  "pagePath": "pages/spa/mygroup",
+		  "iconPath": "static/spa/mine.png",
+		  "selectedIconPath": "static/spa/mine_select.png",
+		  "text": "我的团"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "孝德唱响",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	}
+}
